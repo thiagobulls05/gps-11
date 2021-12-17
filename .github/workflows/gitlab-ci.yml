@@ -24,7 +24,7 @@ jobs:
       - name: Lint with pylint
       
         run: |
-          pyton -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install pylint
           pylint main.py
           
